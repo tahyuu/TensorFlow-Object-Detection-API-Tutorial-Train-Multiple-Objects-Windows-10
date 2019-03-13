@@ -128,6 +128,9 @@ Install the other necessary packages by issuing the following commands:
 A PYTHONPATH variable must be created that points to the \models, \models\research, and \models\research\slim directories. Do this by issuing the following commands (from any directory):
 ```
 (tensorflow1) C:\> set PYTHONPATH=C:\tensorflow1\models;C:\tensorflow1\models\research;C:\tensorflow1\models\research\slim
+
+(tensorflow1) [tester@localhost ~]$ export PYTHONPATH=$PYTHONPATH:/home/tester/tensorflow1/models/research/:/home/tester/tensorflow1/models/research/slim
+
 ```
 (Note: Every time the "tensorflow1" virtual environment is exited, the PYTHONPATH variable is reset and needs to be set up again.)
 
